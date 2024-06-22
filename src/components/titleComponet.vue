@@ -1,8 +1,8 @@
 <template>
-    <div class="roboto-mono text-[#e6e6e6] flex w-full items-center justify-center py-10">
-        <div class="flex flex-col justify-center items-center w-full border-b-4">
+    <div class="roboto-mono text-[#e6e6e6] flex w-full items-center justify-center">
+        <div class="flex flex-col justify-center items-center w-full">
             <div class="text-center">
-                <p class="text-3xl">{{ props.titleTextEspañol }}</p>
+                <p class="text-2xl">{{ props.titleTextEspañol }}</p>
             </div>
         </div>
     </div>
