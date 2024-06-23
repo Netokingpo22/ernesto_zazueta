@@ -27,10 +27,10 @@ import mainPage from './components/mainPage.vue';
   scrollbar-color: hsl(0, 0%, 5%) hsl(0, 0%, 10%);
 }
 
-.roboto-mono{
+.roboto-mono {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
 }
 </style>

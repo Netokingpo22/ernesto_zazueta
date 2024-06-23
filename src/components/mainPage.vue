@@ -1,23 +1,21 @@
 <template>
   <div class="bg-[#0d0d0d] h-screen">
-    <helloNeto />
+    <netoC />
   </div>
   <div class="bg-[#0d0d0d]">
-    <educationComponent />
-    <laborComponent />
-    <skillsComponent />
-    <languageComponent />
-    <softComponent />
-    <personalComponent />
+    <projectsC />
+    <educationC />
+    <workC />
+    <skillsC />
+    <personalC />
   </div>
 </template>
 
 <script setup>
-import helloNeto from './helloNeto.vue';
-import educationComponent from './educationComponent.vue';
-import laborComponent from './laborComponent.vue';
-import skillsComponent from './skillsComponent.vue';
-import languageComponent from './languageComponent.vue';
-import softComponent from './softComponent.vue';
-import personalComponent from './personalComponent.vue';
-</script>./languageComponent.vue
+import netoC from './netoC.vue';
+import educationC from './educationC.vue';
+import workC from './workC.vue';
+import skillsC from './skillsC.vue';
+import personalC from './personalC.vue';
+import projectsC from './projectsC.vue'
+</script>
