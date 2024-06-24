@@ -2,7 +2,7 @@
     <div class="roboto-mono flex w-full items-center justify-center py-5 border-t-2 border-[#262626]">
         <div class="flex flex-col justify-center items-center w-full">
             <div class="flex justify-center items-center w-[98%] md:w-[70%] md:min-w-[768px]">
-                <div class="flex flex-col items-start justify-center text-xs leading-5 w-full md:text-xl">
+                <div class="flex flex-col items-start justify-center text-xs leading-5 w-full md:text-xl ">
                     <div class="flex flex-row">
                         <p class="text-[#475dcc]">Experiencia laboral&nbsp;</p>
                         <p class="text-[#cccccc]">{</p>
