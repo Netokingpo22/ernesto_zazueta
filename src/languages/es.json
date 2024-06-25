@@ -1,0 +1,102 @@
+{
+    "main": {
+        "developer": "Desarrollador de software"
+    },
+    "projects": {
+        "projects": "Proyectos",
+        "repository": "Repositorio",
+        "description": "Descripción",
+        "database": "Base de Datos"
+    },
+    "education": {
+        "education": "Educación",
+        "institution": "Institución",
+        "location": "Ubicación",
+        "degree": "Carrera",
+        "status": "Estado",
+        "graduated": "Titulado"
+    },
+    "workExperience": {
+        "workExperience": "Experiencia laboral",
+        "softwareDeveloper": "Desarrollador de software",
+        "internship": "Pasantía",
+        "organization": "Organización",
+        "date": "Fecha",
+        "activities": "Actividades",
+        "technologies": "Tecnologías",
+        "cero": {
+            "date1": "Septiembre/2023",
+            "date2": "Actual",
+            "cero": "Se construyó una aplicación web para la gestión de cursos, docentes, materias, clases y estudiantes, incluyendo la generación de informes para las auditorías de CACEI",
+            "one": "Reducción del error humano al completar informes en un 100% gracias a la función de generación automática de informes",
+            "two": "Se utilizó el framework Django en el back-end y establecí APIs usando el framework Django REST, mejorando el tiempo de desarrollo gracias a las herramientas proporcionadas por este framework",
+            "three": "La autenticación fue implementada con éxito con Simple JWT, agregando 1 capa adicional de seguridad para acceder a todos los servicios",
+            "four": "Se desarrolló el frontend usando Vue.js y se agregó Tailwind para la UI, reduciendo el tiempo de implementación en 1 mes"
+        },
+        "one": {
+            "date1": "Julio/2023",
+            "date2": "Septiembre/2023",
+            "cero": "Contribución a una aplicación de escritorio con funciones de gestión de POS, gestión de inventario, gestión de proveedores, inicio de sesión, informes de ventas y emisión de tickets",
+            "one": "Se corrigió la funcionalidad de los módulos principales, se resolvieron errores críticos, se mejoraron las interfaces de usuario y se optimizó el código, aumentando el rendimiento"
+        },
+        "two": {
+            "date1": "Agosto/2022",
+            "date2": "Mayo/2022",
+            "cero": "Zitheonsoft necesitaba crear e implementar un módulo de ventas para un software como servicio, permitiendo a los usuarios adquirir este servicio",
+            "one": "Se utilizó Openpay para las transacciones, encriptación de datos y validación de tarjetas, agregando 3 pasos de protección a la transacción",
+            "two": "El back-end se construyó con Spring Boot y se empleó JPA para la persistencia de datos",
+            "three": "Se implementó Spring Security para autenticar usando JWT, junto con la configuración CORS para un acceso protegido a los recursos del servidor, reforzando la seguridad en todos los servicios",
+            "four": "El front-end se diseñó con Angular y se mejoró el proceso de compilación de la landing page a menos de 1 segundo"
+        }
+    },
+    "skill": {
+        "skill": "Habilidades",
+        "technologies": {
+            "technologies": "Tecnologías",
+            "1Year": "1 año",
+            "less1Year": "menos de 1 año"
+        },
+        "languages": {
+            "languages": "Idiomas",
+            "spanish": "Español",
+            "english": "Inglés"
+        },
+        "soft": {
+            "soft": "Blandas",
+            "cero": "Comunicación",
+            "one": "Trabajo en equipo",
+            "two": "Creatividad",
+            "three": "Resolución del problema"
+        }
+    },
+    "personalExperience": {
+        "personalExperience": "Experiencia personal",
+        "date": "Fecha",
+        "activities": "Actividades",
+        "technologies": "Tecnologías",
+        "cero": {
+            "name": "Compilador",
+            "date1": "Enero/2021",
+            "date2": "Diciembre/2021",
+            "cero": "Se diseñó un compilador que abarcaba análisis léxico, reglas de sintaxis y semántica, con una tasa de efectividad del 90%"
+        },
+        "one": {
+            "name": "Punto de venta",
+            "date1": "Enero/2021",
+            "date2": "Agosto/2021",
+            "cero": "Se diseñó un punto de venta con Spring Boot y JPA en el back-end, y Angular en el front-end"
+        },
+        "two": {
+            "name": "Taller Mecánico ASC",
+            "date1": "Agosto/2020",
+            "date2": "Mayo/2020",
+            "cero": "Se aumentó la eficiencia en la gestión de inventarios y agenda con un sistema desarrollado para un taller mecánico"
+        },
+        "three": {
+            "name": "Videojuego",
+            "date1": "enero/2019",
+            "date2": "mayo/2019",
+            "cero": "Se estudió y aplicó las herramientas gráficas de Java, junto con la gestión de eventos e hilos, en un proyecto final"
+        }
+    }
+}

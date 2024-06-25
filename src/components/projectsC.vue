@@ -1,184 +1,238 @@
 <template>
-    <div class="roboto-mono flex w-full items-center justify-center py-5 border-t-2 border-[#262626]">
-        <div class="flex flex-col justify-center items-center w-full text-[#cccccc]">
+    <div class="roboto-mono flex w-full items-center justify-center py-5 border-t-2 border-[#26232b]">
+        <div class="flex flex-col justify-center items-center w-full whiteText">
             <div class="flex justify-center items-center w-[98%] md:w-[70%] md:min-w-[768px]">
                 <div class="flex flex-col items-start justify-center text-xs leading-5 w-full md:text-xl">
                     <div class="flex flex-row">
-                        <p class="text-[#475dcc]">Proyectos&nbsp;</p>
-                        <p class="text-[#cccccc]">{</p>
+                        <p class="blueClass">{{ t('projects.projects') }}&nbsp;</p>
+                        <p class="whiteChar">{</p>
                     </div>
                     <div>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#6DA75D]">Node.js&nbsp;</span>
-                                <span>+&nbsp;</span>
-                                <span>Express.js&nbsp;</span>
-                                <span>+&nbsp;</span>
-                                <span class="text-[#58C4DC]">React&nbsp;</span>
-                                <span>{</span>
+                                <span class="text-[#50FA7B]">Node.js&nbsp;</span>
+                                <span class="whiteChar">+&nbsp;</span>
+                                <span class="text-[#F8F8F2]">Express.js&nbsp;</span>
+                                <span class="whiteChar">+&nbsp;</span>
+                                <span class="text-[#8BE9FD]">React&nbsp;</span>
+                                <span class="whiteChar">{</span>
                             </p>
                         </div>
                     </div>
                     <div class="ml-8 md:ml-16">
                         <p>
-                            <span class="text-[#3aa667]">Repositorio&nbsp;</span>
-                            <span>= https://github.com/Netokingpo22;</span>
+                            <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">github</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Descripción&nbsp;</span>
-                            <span>= link;</span>
+                            <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">link</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Backend&nbsp;</span>
-                            <span>= Node.js con Express.js;</span>
+                            <span class="greenVar">Backend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>Node.js con Express.js</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Frontend&nbsp;</span>
-                            <span>= React (JavaScript);</span>
+                            <span class="greenVar">Frontend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>React (JavaScript)</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Base de Datos&nbsp;</span>
-                            <span>= MongoDB;</span>
+                            <span class="greenVar">{{ t('projects.database') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>MongoDB</span>
+                            <span class="whiteChar">;</span>
                         </p>
                     </div>
-                    <p class=" text-[#cccccc] ml-4 md:ml-8">}</p>
+                    <p class=" whiteChar ml-4 md:ml-8">}</p>
                     <div>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#6EB33F]">Spring Boot&nbsp;</span>
-                                <span>+&nbsp;</span>
-                                <span class="text-[#DD0031]">Angular&nbsp;</span>
-                                <span>{</span>
+                                <span class="text-[#50FA7B]">Spring Boot&nbsp;</span>
+                                <span class="whiteChar">+&nbsp;</span>
+                                <span class="text-[#FF5555]">Angular&nbsp;</span>
+                                <span class="whiteChar">{</span>
                             </p>
                         </div>
                     </div>
                     <div class="ml-8 md:ml-16">
                         <p>
-                            <span class="text-[#3aa667]">Repositorio&nbsp;</span>
-                            <span>= https://github.com/Netokingpo22;</span>
+                            <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">github</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Descripción&nbsp;</span>
-                            <span>= link;</span>
+                            <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">link</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Backend&nbsp;</span>
-                            <span>= Spring Boot (Java);</span>
+                            <span class="greenVar">Backend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>Spring Boot (Java)</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Frontend&nbsp;</span>
-                            <span>= Angular (TypeScript);</span>
+                            <span class="greenVar">Frontend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>Angular (TypeScript)</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Base de Datos&nbsp;</span>
-                            <span>= PostgreSQL;</span>
+                            <span class="greenVar">{{ t('projects.database') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>PostgreSQL</span>
+                            <span class="whiteChar">;</span>
                         </p>
                     </div>
-                    <p class=" text-[#cccccc] ml-4 md:ml-8">}</p>
+                    <p class="whiteChar ml-4 md:ml-8">}</p>
                     <div>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#003A2B]">Django&nbsp;</span>
-                                <span>+&nbsp;</span>
-                                <span class="text-[#41B883]">Vue.js&nbsp;</span>
-                                <span>{</span>
+                                <span class="text-[#50FA7B]">Django&nbsp;</span>
+                                <span class="whiteChar">+&nbsp;</span>
+                                <span class="text-[#50FA7B]">Vue.js&nbsp;</span>
+                                <span class="whiteChar">{</span>
                             </p>
                         </div>
                     </div>
                     <div class="ml-8 md:ml-16">
                         <p>
-                            <span class="text-[#3aa667]">Repositorio&nbsp;</span>
-                            <span>= https://github.com/Netokingpo22;</span>
+                            <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">github</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Descripción&nbsp;</span>
-                            <span>= link;</span>
+                            <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">link</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Backend&nbsp;</span>
-                            <span>= Django (Python);</span>
+                            <span class="greenVar">Backend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>Django (Python)</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Frontend&nbsp;</span>
-                            <span>= Vue.js (JavaScript);</span>
+                            <span class="greenVar">Frontend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>Vue.js (JavaScript)</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Base de Datos&nbsp;</span>
-                            <span>= SQLite;</span>
+                            <span class="greenVar">{{ t('projects.database') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>SQLite</span>
+                            <span class="whiteChar">;</span>
                         </p>
                     </div>
-                    <p class=" text-[#cccccc] ml-4 md:ml-8">}</p>
+                    <p class=" whiteChar ml-4 md:ml-8">}</p>
                     <div>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#6D429C]">ASP.NET Core&nbsp;</span>
-                                <span>+&nbsp;</span>
-                                <span class="text-[#E04E39]">Ember.js&nbsp;</span>
-                                <span>{</span>
+                                <span class="text-[#BD93F9]">ASP.NET Core&nbsp;</span>
+                                <span class="whiteChar">+&nbsp;</span>
+                                <span class="text-[#FFB86C]">Ember.js&nbsp;</span>
+                                <span class="whiteChar">{</span>
                             </p>
                         </div>
                     </div>
                     <div class="ml-8 md:ml-16">
                         <p>
-                            <span class="text-[#3aa667]">Repositorio&nbsp;</span>
-                            <span>= https://github.com/Netokingpo22;</span>
+                            <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">github</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Descripción&nbsp;</span>
-                            <span>= link;</span>
+                            <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">link</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Backend&nbsp;</span>
-                            <span>= ASP.NET Core (C#);</span>
+                            <span class="greenVar">Backend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>ASP.NET Core (C#)</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Frontend&nbsp;</span>
-                            <span>= Ember.js (JavaScript);</span>
+                            <span class="greenVar">Frontend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>Ember.js (JavaScript)</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">PostgreSQL&nbsp;</span>
-                            <span>= MySQL;</span>
+                            <span class="greenVar">{{ t('projects.database') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>MySQL</span>
+                            <span class="whiteChar">;</span>
                         </p>
                     </div>
-                    <p class=" text-[#cccccc] ml-4 md:ml-8">}</p>
+                    <p class=" whiteChar ml-4 md:ml-8">}</p>
                     <div>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#FF2D20]">Laravel&nbsp;</span>
-                                <span>+&nbsp;</span>
-                                <span class="text-[#FF3E00]">Svelte&nbsp;</span>
-                                <span>{</span>
+                                <span class="text-[#FFB86C]">Laravel&nbsp;</span>
+                                <span class="whiteChar">+&nbsp;</span>
+                                <span class="text-[#FFB86C]">Svelte&nbsp;</span>
+                                <span class="whiteChar">{</span>
                             </p>
                         </div>
                     </div>
                     <div class="ml-8 md:ml-16">
                         <p>
-                            <span class="text-[#3aa667]">Repositorio&nbsp;</span>
-                            <span>= https://github.com/Netokingpo22;</span>
+                            <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">github</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Descripción&nbsp;</span>
-                            <span>= link;</span>
+                            <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="">link</a>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Backend&nbsp;</span>
-                            <span>= Laravel (PHP);</span>
+                            <span class="greenVar">Backend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>Laravel (PHP)</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">Frontend&nbsp;</span>
-                            <span>= Svelte (JavaScript);</span>
+                            <span class="greenVar">Frontend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>Svelte (JavaScript)</span>
+                            <span class="whiteChar">;</span>
                         </p>
                         <p>
-                            <span class="text-[#3aa667]">MySQL&nbsp;</span>
-                            <span>= MySQL;</span>
+                            <span class="greenVar">{{ t('projects.database') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>MySQL</span>
+                            <span class="whiteChar">;</span>
                         </p>
                     </div>
-                    <p class=" text-[#cccccc] ml-4 md:ml-8">}</p>
-                    <p class=" text-[#cccccc]">}</p>
+                    <p class=" whiteChar ml-4 md:ml-8">}</p>
+                    <p class=" whiteChar">}</p>
                 </div>
             </div>
         </div>
     </div>
 </template>
 <script setup>
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
+
 </script>

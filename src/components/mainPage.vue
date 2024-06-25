@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-[#0d0d0d] h-screen">
+  <div class="bg-[#0e0d11] h-screen">
     <netoC />
   </div>
-  <div class="bg-[#0d0d0d]">
+  <div class="bg-[#0e0d11]">
     <projectsC />
     <educationC />
     <workC />

@@ -1,141 +1,166 @@
 <template>
-    <div class="roboto-mono text-[#cccccc] flex w-full items-center justify-center py-5 border-t-2 border-[#262626]">
-        <div class="flex flex-col justify-center items-center w-full">
+    <div class="roboto-mono flex w-full items-center justify-center py-5 border-t-2 border-[#26232b]">
+        <div class="flex flex-col justify-center items-center w-full whiteText">
             <div class="flex justify-center items-center w-[98%] md:w-[70%] md:min-w-[768px]">
                 <div class="flex flex-col items-start justify-center text-xs leading-5 w-full md:text-xl">
                     <div class="flex flex-row">
-                        <p class="text-[#475dcc]">Experiencia personal&nbsp;</p>
-                        <p class="text-[#cccccc]">{</p>
+                        <p class="blueClass">{{ t('personalExperience.personalExperience') }}&nbsp;</p>
+                        <p class="whiteChar">{</p>
                     </div>
                     <div>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#a63a70]">Compilador&nbsp;</span>
-                                <span class="text-[#cccccc]">{</span>
+                                <span class="pinkClass">{{ t('personalExperience.cero.name') }}&nbsp;</span>
+                                <span class="whiteChar">{</span>
                             </p>
                         </div>
                         <div class="ml-8 md:ml-16">
                             <p>
-                                <span class="text-[#3aa667]">Fecha&nbsp;</span>
-                                <span class="text-[#cccccc]">= [ Enero/2021 ][ Diciembre/2021 ];</span>
+                                <span class="greenVar">{{ t('personalExperience.date') }}&nbsp;</span>
+                                <span class="whiteChar">[&nbsp;</span>
+                                <span class="whiteText">{{ t('personalExperience.cero.date1') }}</span>
+                                <span class="whiteChar">]&nbsp;</span>
+                                <span class="whiteChar">[&nbsp;</span>
+                                <span class="whiteText">{{ t('personalExperience.cero.date2') }}</span>
+                                <span class="whiteChar"> ];</span>
                             </p>
                             <p>
-                                <span class="text-[#3aa667]">Actividades&nbsp;</span>
-                                <span class="text-[#cccccc]">= {</span>
+                                <span class="greenVar">{{ t('personalExperience.activities') }}&nbsp;</span>
+                                <span class="whiteChar">= {</span>
                             </p>
                             <p>
-                                <span class="text-[#cccccc]">[</span>
-                                <span class="text-[#3aa667]">0</span>
-                                <span class="text-[#cccccc]">]</span>
-                                <span class="text-[#cccccc]">[Se construyó una aplicación web para la
-                                    gestión de cursos,
-                                    docentes, materias,clases y estudiantes, incluyendo la
-                                    generación de informes para
-                                    las
-                                    auditorías de CACEI.]}
-                                </span>
+                                <span class="whiteChar">[</span>
+                                <span class="greenVar">0</span>
+                                <span class="whiteChar">]</span>
+                                <span class="whiteChar">[ </span>
+                                <span class="whiteText">{{ t('personalExperience.cero.cero') }}</span>
+                                <span class="whiteChar"> ]</span>
                             </p>
                             <p>
-                                <span class="text-[#3aa667]">Tecnologías&nbsp;</span>
-                                <span class="text-[#cccccc]">= [ Java, Sql, Excel];</span>
+                                <span class="greenVar">{{ t('personalExperience.technologies') }}&nbsp;</span>
+                                <span class="whiteChar">= [ </span>
+                                <span class="whitwhiteTextChar">Java, Sql, Excel</span>
+                                <span class="whiteChar"> ];</span>
                             </p>
                         </div>
-                        <p class="ml-4 md:ml-8 text-[#cccccc]">}</p>
+                        <p class="ml-4 md:ml-8 whiteChar">}</p>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#a63a70]">Punto de venta&nbsp;</span>
-                                <span class="text-[#cccccc]">{</span>
+                                <span class="pinkClass">{{ t('personalExperience.one.name') }}&nbsp;</span>
+                                <span class="whiteChar">{</span>
                             </p>
                         </div>
                         <div class="ml-8 md:ml-16">
                             <p>
-                                <span class="text-[#3aa667]">Fecha&nbsp;</span>
-                                <span class="text-[#cccccc]">= [ Enero/2021 ][ Agosto/2021 ];</span>
+                                <span class="greenVar">{{ t('personalExperience.date') }}&nbsp;</span>
+                                <span class="whiteChar">[&nbsp;</span>
+                                <span class="whiteText">{{ t('personalExperience.one.date1') }}</span>
+                                <span class="whiteChar">]&nbsp;</span>
+                                <span class="whiteChar">[&nbsp;</span>
+                                <span class="whiteText">{{ t('personalExperience.one.date2') }}</span>
+                                <span class="whiteChar"> ];</span>
                             </p>
                             <p>
-                                <span class="text-[#3aa667]">Actividades&nbsp;</span>
-                                <span class="text-[#cccccc]">= {</span>
+                                <span class="greenVar">{{ t('personalExperience.activities') }}&nbsp;</span>
+                                <span class="whiteChar">= {</span>
                             </p>
                             <p>
-                                <span class="text-[#cccccc]">[</span>
-                                <span class="text-[#3aa667]">0</span>
-                                <span class="text-[#cccccc]">]</span>
-                                <span class="text-[#cccccc]">[ Se diseñó un punto de venta con Spring Boot y JPA en el
-                                    back-end, y Angular en el front-end ]}
-                                </span>
+                                <span class="whiteChar">[</span>
+                                <span class="greenVar">0</span>
+                                <span class="whiteChar">]</span>
+                                <span class="whiteChar">[ </span>
+                                <span class="whiteText">{{ t('personalExperience.one.cero') }}</span>
+                                <span class="whiteChar"> ]</span>
                             </p>
                             <p>
-                                <span class="text-[#3aa667]">Tecnologías&nbsp;</span>
-                                <span class="text-[#cccccc]">= [ Java, Spring Boot, Angular, Typescript ];</span>
+                                <span class="greenVar">{{ t('personalExperience.technologies') }}&nbsp;</span>
+                                <span class="whiteChar">= [ </span>
+                                <span class="whitwhiteTextChar">Java, Spring Boot, Angular, Typescript</span>
+                                <span class="whiteChar"> ];</span>
                             </p>
                         </div>
-                        <p class="ml-4 md:ml-8 text-[#cccccc]">}</p>
+                        <p class="ml-4 md:ml-8 whiteChar">}</p>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#a63a70]">Taller Mecánico ASC&nbsp;</span>
-                                <span class="text-[#cccccc]">{</span>
+                                <span class="pinkClass">{{ t('personalExperience.two.name') }}&nbsp;</span>
+                                <span class="whiteChar">{</span>
                             </p>
                         </div>
                         <div class="ml-8 md:ml-16">
                             <p>
-                                <span class="text-[#3aa667]">Fecha&nbsp;</span>
-                                <span class="text-[#cccccc]">= [ Agosto/2020 ][ Mayo/2021 ];</span>
+                                <span class="greenVar">{{ t('personalExperience.date') }}&nbsp;</span>
+                                <span class="whiteChar">[&nbsp;</span>
+                                <span class="whiteText">{{ t('personalExperience.two.date1') }}</span>
+                                <span class="whiteChar">]&nbsp;</span>
+                                <span class="whiteChar">[&nbsp;</span>
+                                <span class="whiteText">{{ t('personalExperience.two.date2') }}</span>
+                                <span class="whiteChar"> ];</span>
                             </p>
                             <p>
-                                <span class="text-[#3aa667]">Actividades&nbsp;</span>
-                                <span class="text-[#cccccc]">= {</span>
+                                <span class="greenVar">{{ t('personalExperience.activities') }}&nbsp;</span>
+                                <span class="whiteChar">= {</span>
                             </p>
                             <p>
-                                <span class="text-[#cccccc]">[</span>
-                                <span class="text-[#3aa667]">0</span>
-                                <span class="text-[#cccccc]">]</span>
-                                <span class="text-[#cccccc]">[ Se aumentó la
-                                    eficiencia en la gestión de inventarios y agenda con un sistema
-                                    desarrollado para un taller
-                                    mecánico ]}
-                                </span>
+                                <span class="whiteChar">[</span>
+                                <span class="greenVar">0</span>
+                                <span class="whiteChar">]</span>
+                                <span class="whiteChar">[ </span>
+                                <span class="whiteText">{{ t('personalExperience.two.cero') }}</span>
+                                <span class="whiteChar"> ]</span>
                             </p>
                             <p>
-                                <span class="text-[#3aa667]">Tecnologías&nbsp;</span>
-                                <span class="text-[#cccccc]">= [ JavaScript, Php, Bootstrap];</span>
+                                <span class="greenVar">{{ t('personalExperience.technologies') }}&nbsp;</span>
+                                <span class="whiteChar">= [ </span>
+                                <span class="whitwhiteTextChar">JavaScript, Php, Bootstrap</span>
+                                <span class="whiteChar"> ];</span>
                             </p>
                         </div>
-                        <p class="ml-4 md:ml-8 text-[#cccccc]">}</p>
+                        <p class="ml-4 md:ml-8 whiteChar">}</p>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#a63a70]">Videojuego&nbsp;</span>
-                                <span class="text-[#cccccc]">{</span>
+                                <span class="pinkClass">{{ t('personalExperience.three.name') }}&nbsp;</span>
+                                <span class="whiteChar">{</span>
                             </p>
                         </div>
                         <div class="ml-8 md:ml-16">
                             <p>
-                                <span class="text-[#3aa667]">Fecha&nbsp;</span>
-                                <span class="text-[#cccccc]">= [ Enero/2019 ][ Mayo/2019 ];</span>
+                                <span class="greenVar">{{ t('personalExperience.date') }}&nbsp;</span>
+                                <span class="whiteChar">[&nbsp;</span>
+                                <span class="whiteText">{{ t('personalExperience.three.date1') }}</span>
+                                <span class="whiteChar">]&nbsp;</span>
+                                <span class="whiteChar">[&nbsp;</span>
+                                <span class="whiteText">{{ t('personalExperience.three.date2') }}</span>
+                                <span class="whiteChar"> ];</span>
                             </p>
                             <p>
-                                <span class="text-[#3aa667]">Actividades&nbsp;</span>
-                                <span class="text-[#cccccc]">= {</span>
+                                <span class="greenVar">{{ t('personalExperience.activities') }}&nbsp;</span>
+                                <span class="whiteChar">= {</span>
                             </p>
                             <p>
-                                <span class="text-[#cccccc]">[</span>
-                                <span class="text-[#3aa667]">0</span>
-                                <span class="text-[#cccccc]">]</span>
-                                <span class="text-[#cccccc]">[ Se estudió y aplicó las herramientas gráficas de Java,
-                                    junto con la gestión de eventos e hilos, en un proyecto final ]}
-                                </span>
+                                <span class="whiteChar">[</span>
+                                <span class="greenVar">0</span>
+                                <span class="whiteChar">]</span>
+                                <span class="whiteChar">[ </span>
+                                <span class="whiteText">{{ t('personalExperience.three.cero') }}</span>
+                                <span class="whiteChar"> ]</span>
                             </p>
                             <p>
-                                <span class="text-[#3aa667]">Tecnologías&nbsp;</span>
-                                <span class="text-[#cccccc]">= [ Java ];</span>
+                                <span class="greenVar">{{ t('personalExperience.technologies') }}&nbsp;</span>
+                                <span class="whiteChar">= [ </span>
+                                <span class="whitwhiteTextChar">Java</span>
+                                <span class="whiteChar"> ];</span>
                             </p>
                         </div>
-                        <p class="ml-4 md:ml-8 text-[#cccccc]">}</p>
+                        <p class="ml-4 md:ml-8 whiteChar">}</p>
                     </div>
-                    <p>}</p>
+                    <p class="whiteChar">}</p>
                 </div>
             </div>
         </div>
     </div>
 </template>
 <script setup>
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
 </script>

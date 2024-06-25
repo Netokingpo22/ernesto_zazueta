@@ -1,35 +1,46 @@
 <template>
-  <div class="roboto-mono flex w-full items-center justify-center py-5 border-t-2 border-[#262626]">
-    <div class="flex justify-center items-center w-full ">
+  <div class="roboto-mono flex w-full items-center justify-center py-5 border-t-2 border-[#26232b]">
+    <div class="flex justify-center items-center w-full whiteText">
       <div class="flex justify-center items-center w-[98%] md:w-[70%] md:min-w-[768px]">
         <div class="flex flex-col items-start justify-center text-xs leading-5 w-full md:text-xl">
           <div class="flex flex-row">
-            <p class="text-[#475dcc]">Educación&nbsp;</p>
-            <p class="text-[#cccccc]">{</p>
+            <p class="blueClass">{{ t('education.education') }}&nbsp;</p>
+            <p class="whiteChar">{</p>
           </div>
           <div class="ml-4 md:ml-8">
             <p>
-              <span class="text-[#3aa667]">Organización&nbsp;</span>
-              <span class="text-[#cccccc]">= Instituto Tecnológico Superior de Cajeme;</span>
+              <span class="greenVar">{{ t('education.institution') }}&nbsp;</span>
+              <span class="whiteChar">=&nbsp;</span>
+              <span>Instituto Tecnológico Superior de Cajeme</span>
+              <span class="whiteChar">;</span>
             </p>
             <p>
-              <span class="text-[#3aa667]">Localización&nbsp;</span>
-              <span class="text-[#cccccc]">= Ciudad Obregón, Sonora;</span>
+              <span class="greenVar">{{ t('education.location') }}&nbsp;</span>
+              <span class="whiteChar">=&nbsp;</span>
+              <span>Ciudad Obregón, Sonora</span>
+              <span class="whiteChar">;</span>
             </p>
             <p>
-              <span class="text-[#3aa667]">Carrera&nbsp;</span>
-              <span class="text-[#cccccc]">= Ingeniero en sistemas computacionales;</span>
+              <span class="greenVar">{{ t('education.degree') }}&nbsp;</span>
+              <span class="whiteChar">=&nbsp;</span>
+              <span>Ingeniero en sistemas computacionales</span>
+              <span class="whiteChar">;</span>
             </p>
             <p>
-              <span class="text-[#3aa667]">Estado&nbsp;</span>
-              <span class="text-[#cccccc]">= Titulado;</span>
+              <span class="greenVar">{{ t('education.status') }}&nbsp;</span>
+              <span class="whiteChar">=&nbsp;</span>
+              <span>{{ t('education.graduated') }}</span>
+              <span class="whiteChar">;</span>
             </p>
           </div>
-          <p class=" text-[#cccccc]">}</p>
+          <p class="whiteChar">}</p>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script setup>
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
 </script>

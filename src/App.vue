@@ -30,7 +30,27 @@ import mainPage from './components/mainPage.vue';
 .roboto-mono {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 450;
   font-style: normal;
+}
+
+.greenVar {
+  color: #50FA7B;
+}
+
+.blueClass {
+  color: #788eff;
+}
+
+.pinkClass {
+  color: #FF79C6;
+}
+
+.whiteText {
+  color: #F8F8F2;
+}
+
+.whiteChar {
+  color: #44475A;
 }
 </style>

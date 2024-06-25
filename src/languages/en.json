@@ -1,0 +1,102 @@
+{
+    "main": {
+        "developer": "Software developer"
+    },
+    "projects": {
+        "projects": "Projects",
+        "repository": "Repository",
+        "description": "Description",
+        "database": "Database"
+    },
+    "education": {
+        "education": "Education",
+        "institution": "Institution",
+        "location": "Location",
+        "degree": "Degree",
+        "status": "Status",
+        "graduated": "Graduated"
+    },
+    "workExperience": {
+        "workExperience": "Work experience",
+        "softwareDeveloper": "Software Developer",
+        "internship": "Internship",
+        "organization": "Organization",
+        "date": "Date",
+        "activities": "Activities",
+        "technologies": "Technologies",
+        "cero": {
+            "date1": "September/2023",
+            "date2": "Current:",
+            "cero": "Built a web application for managing courses, teachers, subjects, classes, and students, including generating reports for CACEI audits",
+            "one": "Reduced human error when filling out reports by 100% thanks to the automatic report generation feature",
+            "two": "Utilized the Django framework on the back-end and established APIs using the Django REST framework, improving development time thanks to the tools provided by this framework",
+            "three": "Successfully implemented authentication with Simple JWT, adding 1 extra layer of security to access all of the services",
+            "four": "Developed the frontend using Vue.js and added Tailwind for the UI, reducing the implementation time by 1 month"
+        },
+        "one": {
+            "date1": "July/2023",
+            "date2": "September/2023",
+            "cero": "Contributed to a desktop application with POS management, inventory management, supplier management, login, sales reporting, and ticketing features",
+            "one": "Fixed the functionality of core modules, resolved critical bugs, improved the user interfaces, and optimized the code, increasing performance"
+        },
+        "two": {
+            "date1": "August/2022",
+            "date2": "May/2022",
+            "cero": "Zitheonsoft needed to create and implement a sales module for a software as a service, allowing users to purchase this service",
+            "one": "Used Openpay for the transactions, encryption of data, and card validation, adding 3 steps of protection to the transaction",
+            "two": "Constructed the back-end with Spring Boot and employed JPA for data persistence",
+            "three": "Deployed Spring Security to authenticate using JWT, coupled with CORS configuration for protected server resource access, bolstering security across all services",
+            "four": "Engineered the front-end with Angular and improved the landing page building process to less than 1 second"
+        }
+    },
+    "skill": {
+        "skill": "Skills",
+        "technologies": {
+            "technologies": "Technologies",
+            "1Year": "1 year",
+            "less1Year": "Less than 1 year"
+        },
+        "languages": {
+            "languages": "Languages",
+            "spanish": "Spanish",
+            "english": "English"
+        },
+        "soft": {
+            "soft": "soft",
+            "cero": "Communication",
+            "one": "Teamwork",
+            "two": "Creativity",
+            "three": "Problem resolution"
+        }
+    },
+    "personalExperience": {
+        "personalExperience": "Personal Experience",
+        "date": "Date",
+        "activities": "Activities",
+        "technologies": "Technologies",
+        "cero": {
+            "name": "Compiler",
+            "date1": "January/2021",
+            "date2": "December/2021",
+            "cero": "Designed a compiler encompassing lexical analysis, syntax rules, and semantics, achieving a 90% effectiveness rate"
+        },
+        "one": {
+            "name": "Point of Sale",
+            "date1": "January/2021",
+            "date2": "August/2021",
+            "cero": "Designed a point of sale with Spring Boot and JPA on the back-end, and Angular on the front-end"
+        },
+        "two": {
+            "name": "ASC Mechanical Workshop",
+            "date1": "August/2020",
+            "date2": "May/2020",
+            "cero": "Enhanced efficiency in inventory and agenda management with a system tailored for a mechanical workshop"
+        },
+        "three": {
+            "name": "Video Game",
+            "date1": "January/2019",
+            "date2": "May/2019",
+            "cero": "Studied and applied the graphical features of Java, along with event and thread management, in a final project"
+        }
+    }
+}
