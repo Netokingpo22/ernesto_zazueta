@@ -1,8 +1,8 @@
 <template>
   <div class="roboto-mono whiteText flex h-full w-full items-center justify-center">
-    <div class="absolute top-5 right-5 flex text-xs md:text-xl">
-      <button v-if="currentLanguage === 'es'" @click="changeLanguage('en')">English</button>
-      <button v-else @click="changeLanguage('es')">Español</button>
+    <div class="absolute top-5 right-5 flex text-xs md:text-xl underline underline-offset-4">
+      <button v-if="currentLanguage === 'es'" @click="changeLanguage('en')" class="p-3">English</button>
+      <button v-else @click="changeLanguage('es')" class="p-3">Español</button>
     </div>
     <div class="flex flex-col justify-center items-center w-full">
       <img src="../assets/icon.png" class="w-64" alt="">

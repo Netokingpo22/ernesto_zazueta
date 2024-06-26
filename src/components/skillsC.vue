@@ -93,7 +93,7 @@
                     <div>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="pinkClass">Idimoas&nbsp;</span>
+                                <span class="pinkClass">{{ t('skill.languages.languages') }}&nbsp;</span>
                                 <span class="whiteChar">{</span>
                             </p>
                         </div>

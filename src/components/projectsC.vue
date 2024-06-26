@@ -23,13 +23,13 @@
                         <p>
                             <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">github</a>
+                            <a href="" class="underline underline-offset-4">github</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
                             <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">link</a>
+                            <a href="" class="underline underline-offset-4">link</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
@@ -66,13 +66,13 @@
                         <p>
                             <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">github</a>
+                            <a href="" class="underline underline-offset-4">github</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
                             <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">link</a>
+                            <a href="" class="underline underline-offset-4">link</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
@@ -109,13 +109,13 @@
                         <p>
                             <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">github</a>
+                            <a href="" class="underline underline-offset-4">github</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
                             <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">link</a>
+                            <a href="" class="underline underline-offset-4">link</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
@@ -152,13 +152,13 @@
                         <p>
                             <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">github</a>
+                            <a href="" class="underline underline-offset-4">github</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
                             <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">link</a>
+                            <a href="" class="underline underline-offset-4">link</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
@@ -184,7 +184,7 @@
                     <div>
                         <div class="ml-4 md:ml-8">
                             <p>
-                                <span class="text-[#FFB86C]">Laravel&nbsp;</span>
+                                <span class="text-[#FF5555]">Laravel&nbsp;</span>
                                 <span class="whiteChar">+&nbsp;</span>
                                 <span class="text-[#FFB86C]">Svelte&nbsp;</span>
                                 <span class="whiteChar">{</span>
@@ -195,13 +195,13 @@
                         <p>
                             <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">github</a>
+                            <a href="" class="underline underline-offset-4">github</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
                             <span class="greenVar">{{ t('projects.description') }}&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <a href="">link</a>
+                            <a href="" class="underline underline-offset-4">link</a>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
