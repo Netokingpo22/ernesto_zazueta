@@ -13,6 +13,52 @@
                                 <span class="text-[#50FA7B]">Node.js&nbsp;</span>
                                 <span class="whiteChar">+&nbsp;</span>
                                 <span class="text-[#F8F8F2]">Express.js&nbsp;</span>
+                                <span class="whiteChar">{</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ml-8 md:ml-16">
+                        <p>
+                            <span class="greenVar">{{ t('projects.repository') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <a href="https://github.com/Netokingpo22/Express-demo"
+                                class="underline underline-offset-4">github</a>
+                            <span class="whiteChar">;</span>
+                        </p>
+                        <p>
+                            <span class="pinkClass">{{ t('projects.description') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                        </p>
+
+                        <div class="ml-8 md:ml-16">
+                            <p>
+                                <span class="greenVar">{{ t('workExperience.organization') }}&nbsp;</span>
+                                <span class="whiteChar">=&nbsp;</span>
+                                <span class="whiteText">Instituto Tecnológico Superior de Cajeme</span>
+                                <span class="whiteChar">;</span>
+                            </p>
+                        </div>
+                        <p>
+                            <span class="greenVar">Backend&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>Node.js Express.js</span>
+                            <span class="whiteChar">;</span>
+                        </p>
+                        <p>
+                            <span class="greenVar">{{ t('projects.database') }}&nbsp;</span>
+                            <span class="whiteChar">=&nbsp;</span>
+                            <span>MongoDB</span>
+                            <span class="whiteChar">;</span>
+                        </p>
+                    </div>
+                    <p class=" whiteChar ml-4 md:ml-8">}</p>
+                    <!--
+                    <div>
+                        <div class="ml-4 md:ml-8">
+                            <p>
+                                <span class="text-[#50FA7B]">Node.js&nbsp;</span>
+                                <span class="whiteChar">+&nbsp;</span>
+                                <span class="text-[#F8F8F2]">Express.js&nbsp;</span>
                                 <span class="whiteChar">+&nbsp;</span>
                                 <span class="text-[#8BE9FD]">React&nbsp;</span>
                                 <span class="whiteChar">{</span>
@@ -35,7 +81,7 @@
                         <p>
                             <span class="greenVar">Backend&nbsp;</span>
                             <span class="whiteChar">=&nbsp;</span>
-                            <span>Node.js con Express.js</span>
+                            <span>Node.js Express.js</span>
                             <span class="whiteChar">;</span>
                         </p>
                         <p>
@@ -223,7 +269,7 @@
                             <span class="whiteChar">;</span>
                         </p>
                     </div>
-                    <p class=" whiteChar ml-4 md:ml-8">}</p>
+                    <p class=" whiteChar ml-4 md:ml-8">}</p>-->
                     <p class=" whiteChar">}</p>
                 </div>
             </div>

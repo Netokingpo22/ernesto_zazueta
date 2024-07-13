@@ -23,7 +23,7 @@
             <p>
               <span class="greenVar">{{ t('education.degree') }}&nbsp;</span>
               <span class="whiteChar">=&nbsp;</span>
-              <span>Ingeniero en sistemas computacionales</span>
+              <span>{{ t('education.career') }}</span>
               <span class="whiteChar">;</span>
             </p>
             <p>
