@@ -27,29 +27,57 @@
                         </p>
                         <p>
                             <span class="pinkClass">{{ t('projects.description') }}&nbsp;</span>
-                            <span class="whiteChar">=&nbsp;</span>
+                            <span class="whiteChar">= {&nbsp;</span>
                         </p>
-
                         <div class="ml-8 md:ml-16">
                             <p>
-                                <span class="greenVar">{{ t('workExperience.organization') }}&nbsp;</span>
-                                <span class="whiteChar">=&nbsp;</span>
-                                <span class="whiteText">Instituto Tecnológico Superior de Cajeme</span>
+                                <span class="whiteChar">[&nbsp;</span>
+                                <span class="whiteText">{{ t('projects.expDemo.description') }}</span>
+                                <span class="whiteChar">&nbsp;]</span>
                                 <span class="whiteChar">;</span>
                             </p>
                         </div>
-                        <p>
-                            <span class="greenVar">Backend&nbsp;</span>
-                            <span class="whiteChar">=&nbsp;</span>
-                            <span>Node.js Express.js</span>
-                            <span class="whiteChar">;</span>
-                        </p>
-                        <p>
-                            <span class="greenVar">{{ t('projects.database') }}&nbsp;</span>
-                            <span class="whiteChar">=&nbsp;</span>
-                            <span>MongoDB</span>
-                            <span class="whiteChar">;</span>
-                        </p>
+                        <div class="ml-8 md:ml-16">
+                            <p>
+                                <span class="greenVar">Node.js&nbsp;</span>
+                                <span class="whiteChar">=&nbsp;</span>
+                                <span class="yellowText">v20.15.0</span>
+                                <span class="whiteChar">;</span>
+                            </p>
+                        </div>
+                        <div class="ml-8 md:ml-16">
+                            <p>
+                                <span class="whiteText">Express.js&nbsp;</span>
+                                <span class="whiteChar">=&nbsp;</span>
+                                <span class="yellowText">v4.19.2</span>
+                                <span class="whiteChar">;</span>
+                            </p>
+                        </div>
+                        <div class="ml-8 md:ml-16">
+                            <p>
+                                <span class="greenVar">MongoDB&nbsp;</span>
+                                <span class="whiteChar">=&nbsp;</span>
+                                <span class="yellowText">v7.0</span>
+                                <span class="whiteChar">;</span>
+                            </p>
+                        </div>
+                        <div class="ml-8 md:ml-16">
+                            <p>
+                                <span class="greenVar">Mongoose&nbsp;</span>
+                                <span class="whiteChar">=&nbsp;</span>
+                                <span class="yellowText">v8.4.4</span>
+                                <span class="whiteChar">;</span>
+                            </p>
+                        </div>
+                        <div class="ml-8 md:ml-16">
+                            <p>
+                                <span class="purpleText">jsonwebtoken&nbsp;</span>
+                                <span class="whiteChar">=&nbsp;</span>
+                                <span class="yellowText">v9.0.2</span>
+                                <span class="whiteChar">;</span>
+                            </p>
+                        </div>
+                        <p class="whiteChar">}&nbsp;</p>
                     </div>
                     <p class=" whiteChar ml-4 md:ml-8">}</p>
                     <!--

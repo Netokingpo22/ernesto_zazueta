@@ -53,4 +53,12 @@ import mainPage from './components/mainPage.vue';
 .whiteChar {
   color: #44475A;
 }
+
+.yellowText {
+  color: #F1FA8C;
+}
+
+.purpleText {
+  color: #BD93F9;
+}
 </style>

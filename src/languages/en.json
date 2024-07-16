@@ -6,7 +6,10 @@
         "projects": "Projects",
         "repository": "Repository",
         "description": "Description",
-        "database": "Database"
+        "database": "Database",
+        "expDemo": {
+            "description": "Developed a practice project using Node.js and Express.js, designed for user and contact management. The application allows user registration and complete contact management, including registration, cancellation and consultation operations. Implemented JWT for secure management of user sessions, ensuring proper authentication and authorization. In addition, Mongoose was used to facilitate interaction with MongoDB, ensuring data modeling."
+        }
     },
     "education": {
         "education": "Education",

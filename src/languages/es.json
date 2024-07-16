@@ -6,7 +6,10 @@
         "projects": "Proyectos",
         "repository": "Repositorio",
         "description": "Descripción",
-        "database": "Base de Datos"
+        "database": "Base de Datos",
+        "expDemo": {
+            "description": "Desarrollé un proyecto de práctica utilizando Node.js y Express.js, diseñado para la gestión de usuarios y contactos. La aplicación permite el registro de usuarios y la administración completa de contactos, incluyendo operaciones de alta, baja y consulta. Se implementó JWT para la gestión segura de sesiones de usuario, asegurando la autenticación y autorización adecuadas. Además, se utilizó Mongoose para facilitar la interacción con MongoDB, garantizando un modelado de datos"
+        }
     },
     "education": {
         "education": "Educación",
