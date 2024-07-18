@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#0e0d11] h-screen">
+  <div class="h-screen bg-[#0e0d11]">
     <netoC />
   </div>
   <div class="bg-[#0e0d11]">
@@ -12,10 +12,10 @@
 </template>
 
 <script setup>
-import netoC from './netoC.vue';
-import educationC from './educationC.vue';
-import workC from './workC.vue';
-import skillsC from './skillsC.vue';
-import personalC from './personalC.vue';
-import projectsC from './projectsC.vue'
+import netoC from "./netoC.vue";
+import educationC from "./educationC.vue";
+import workC from "./workC.vue";
+import skillsC from "./skillsC.vue";
+import personalC from "./personalC.vue";
+import projectsC from "./projectsC.vue";
 </script>
