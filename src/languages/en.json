@@ -8,7 +8,10 @@
         "description": "Description",
         "database": "Database",
         "expDemo": {
-            "description": "Developed a practice project using Node.js and Express.js, designed for user and contact management. The application allows user registration and complete contact management, including registration, cancellation and consultation operations. Implemented JWT for secure management of user sessions, ensuring proper authentication and authorization. In addition, Mongoose was used to facilitate interaction with MongoDB, ensuring data modeling."
+            "description": "I developed a practice project using Node.js and Express.js, focused on user and contact management. The application enables user registration and comprehensive contact management through CRUD operations (Create, Read, Update, Delete). I implemented JSON Web Tokens (JWT) for secure session management, ensuring robust authentication and authorization. Additionally, Mongoose was utilized for interaction with MongoDB, ensuring efficient data modeling and optimized database management."
+        },
+        "portafolio": {
+            "description": "I developed a portfolio showcasing my work with a focus on responsiveness and minimalist design. The portfolio is built using Tailwind CSS, providing a clean and customizable design system. It supports multiple languages through Vue I18n, allowing for seamless localization. I adhered to best practices in development to ensure a high-quality, maintainable, and user-friendly experience."
         }
     },
     "education": {
@@ -66,7 +69,7 @@
             "english": "English"
         },
         "soft": {
-            "soft": "soft",
+            "soft": "Soft",
             "cero": "Communication",
             "one": "Teamwork",
             "two": "Creativity",

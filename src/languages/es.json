@@ -8,7 +8,10 @@
         "description": "Descripción",
         "database": "Base de Datos",
         "expDemo": {
-            "description": "Desarrollé un proyecto de práctica utilizando Node.js y Express.js, diseñado para la gestión de usuarios y contactos. La aplicación permite el registro de usuarios y la administración completa de contactos, incluyendo operaciones de alta, baja y consulta. Se implementó JWT para la gestión segura de sesiones de usuario, asegurando la autenticación y autorización adecuadas. Además, se utilizó Mongoose para facilitar la interacción con MongoDB, garantizando un modelado de datos"
+            "description": "Desarrollé un proyecto de práctica utilizando Node.js y Express.js, centrado en la gestión de usuarios y contactos. La aplicación facilita el registro de usuarios y la administración completa de contactos mediante operaciones CRUD (Crear, Leer, Actualizar, Eliminar). Implementé JSON Web Tokens (JWT) para una gestión segura de las sesiones de los usuarios, asegurando una autenticación y autorización robustas. Además, se empleó Mongoose para la interacción con MongoDB, garantizando un modelado de datos eficiente y una gestión optimizada de la base de datos."
+        },
+        "portafolio": {
+            "description": "Desarrollé un portafolio que destaca mi trabajo, con un enfoque en la responsividad y un diseño minimalista. El portafolio está construido utilizando Tailwind CSS, proporcionando un sistema de diseño limpio y personalizable. Soporta múltiples idiomas a través de Vue I18n, lo que permite una localización fluida. Se siguieron las mejores prácticas de desarrollo para asegurar una experiencia de usuario de alta calidad, mantenible y fácil de usar."
         }
     },
     "education": {
