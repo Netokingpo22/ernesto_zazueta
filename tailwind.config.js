@@ -23,9 +23,6 @@ module.exports = {
         'border-grey': '#26232b',
         'background-black': '#0e0d11',
       },
-      backgroundImage: {
-        'pattern': `url('~@/assets/background.png')`,
-      },
     },
   },
   plugins: [],
