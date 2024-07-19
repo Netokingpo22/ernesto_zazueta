@@ -1,6 +1,6 @@
 <template>
   <div class="flex h-screen w-full items-center justify-center">
-    <div class="absolute right-5 top-5 flex text-xs underline underline-offset-4 md:text-xl">
+    <div class="absolute right-5 top-5 flex underline underline-offset-4">
       <button v-if="currentLanguage === 'es'" @click="changeLanguage('en')" class="p-3">
         English
       </button>

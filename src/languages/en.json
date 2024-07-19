@@ -33,7 +33,7 @@
         "technologies": "Technologies",
         "cero": {
             "date1": "September/2023",
-            "date2": "Current:",
+            "date2": "Current",
             "cero": "Built a web application for managing courses, teachers, subjects, classes, and students, including generating reports for CACEI audits",
             "one": "Reduced human error when filling out reports by 100% thanks to the automatic report generation feature",
             "two": "Utilized the Django framework on the back-end and established APIs using the Django REST framework, improving development time thanks to the tools provided by this framework",

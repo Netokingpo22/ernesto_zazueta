@@ -1,13 +1,14 @@
 <template>
-  <div class="flex w-full items-center justify-center border-t-2 border-border-grey py-5">
+  <div class="flex w-full items-center justify-center py-3">
     <div class="flex w-full items-center justify-center">
-      <div class="flex w-[98%] items-center justify-center md:w-[70%] md:min-w-[768px]">
-        <div class="flex w-full flex-col items-start justify-center text-xs leading-5 md:text-xl">
+      <div
+        class="flex w-[95%] items-center justify-center rounded-md border-2 border-dashed border-color-charcoal p-1 md:w-[70%] md:min-w-[768px] md:rounded-xl md:p-5">
+        <div class="flex w-full flex-col items-start justify-center leading-5">
           <div class="flex flex-row">
             <p class="text-color-blue">{{ t("education.education") }}&nbsp;</p>
             <p class="text-color-charcoal">{</p>
           </div>
-          <div class="ml-4 md:ml-8">
+          <div class="ml-3 md:ml-4">
             <p>
               <span class="text-color-green">{{ t("education.institution") }}&nbsp;</span>
               <span class="text-color-charcoal">=&nbsp;</span>

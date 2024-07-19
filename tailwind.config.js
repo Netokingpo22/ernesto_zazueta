@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{vue,js,ts,jsx,tsx}",],
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./public/index.html", // Incluye este archivo si usas HTML en el directorio public
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -20,7 +22,10 @@ module.exports = {
         'color-purple': '#BD93F9',
         'border-grey': '#26232b',
         'background-black': '#0e0d11',
-      }
+      },
+      backgroundImage: {
+        'pattern': `url('~@/assets/background.png')`,
+      },
     },
   },
   plugins: [],

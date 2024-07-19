@@ -1,15 +1,13 @@
 <template>
-  <div class="bg-background-black font-roboto-mono text-color-white">
-    <div class="h-screen bg-[#0e0d11]">
+  <div class="bg-pattern bg-repeat font-roboto-mono text-xs text-color-white md:text-base">
+    <div class="h-screen">
       <ProfileComponent />
     </div>
-    <div class="bg-[#0e0d11]">
-      <ProjectsComponent />
-      <EducationComponent />
-      <WorkComponent />
-      <SkillsComponent />
-      <PersonalComponent />
-    </div>
+    <ProjectsComponent />
+    <EducationComponent />
+    <WorkComponent />
+    <SkillsComponent />
+    <PersonalComponent />
   </div>
 </template>
 <script setup>
