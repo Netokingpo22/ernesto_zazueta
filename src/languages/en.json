@@ -12,6 +12,9 @@
         },
         "portafolio": {
             "description": "I developed a portfolio showcasing my work with a focus on responsiveness and minimalist design. The portfolio is built using Tailwind CSS, providing a clean and customizable design system. It supports multiple languages through Vue I18n, allowing for seamless localization. I adhered to best practices in development to ensure a high-quality, maintainable, and user-friendly experience."
+        },
+        "jwtDemo": {
+            "description": "I developed a secure authentication system using Spring Boot, implementing JSON Web Tokens (JWT) for user authentication and authorization. The application features a robust RESTful API that supports user registration and login functionalities. Security is enhanced with Spring Security, utilizing a customizable SecurityFilterChain to manage access control effectively. User credentials are encrypted using BCrypt, ensuring secure password storage. The system is designed to be stateless, relying on JWTs for session management, which improves scalability. I followed best practices in software development to create a maintainable, high-quality application that delivers a seamless user experience."
         }
     },
     "education": {

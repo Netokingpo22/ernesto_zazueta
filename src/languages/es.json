@@ -12,6 +12,9 @@
         },
         "portafolio": {
             "description": "Desarrollé un portafolio que destaca mi trabajo, con un enfoque en la responsividad y un diseño minimalista. El portafolio está construido utilizando Tailwind CSS, proporcionando un sistema de diseño limpio y personalizable. Soporta múltiples idiomas a través de Vue I18n, lo que permite una localización fluida. Se siguieron las mejores prácticas de desarrollo para asegurar una experiencia de usuario de alta calidad, mantenible y fácil de usar."
+        },
+        "jwtDemo": {
+            "description": "Desarrollé un sistema de autenticación seguro utilizando Spring Boot, implementando JSON Web Tokens (JWT) para la autenticación y autorización de usuarios. La aplicación cuenta con una robusta API RESTful que soporta funcionalidades de registro e inicio de sesión de usuarios. La seguridad se mejora con Spring Security, utilizando un SecurityFilterChain personalizable para gestionar el control de acceso de manera efectiva. Las credenciales de los usuarios se cifran utilizando BCrypt, asegurando un almacenamiento seguro de contraseñas. El sistema está diseñado para ser sin estado, confiando en los JWT para la gestión de sesiones, lo que mejora la escalabilidad. Seguí las mejores prácticas en el desarrollo de software para crear una aplicación mantenible y de alta calidad que ofrece una experiencia de usuario fluida."
         }
     },
     "education": {
